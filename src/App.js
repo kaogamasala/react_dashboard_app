@@ -13,7 +13,7 @@ const App = () => {
 	const { activeMenu, themeSettings, setThemeSettings, currentColor, currentMode } = useStateContext();
     
   return (
-		// Light or Dark Mode
+	// Light or Dark Mode
     <div className={currentMode === 'Dark' ? 'dark' : ''}>
 			<BrowserRouter>
 				<div className="flex relative dark:bg-main-dark-bg">
